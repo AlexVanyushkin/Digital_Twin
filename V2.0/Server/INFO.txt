@@ -1,7 +1,0 @@
-Команда для сборки проекта (Из корневого каталога Server):
-cmake -B build -S . && cmake --build build
-
-
-При сборке для указания библиотек в vcpkg:
-cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=C:/Users/User/vcpkg/scripts/buildsystems/vcpkg.cmake
-
