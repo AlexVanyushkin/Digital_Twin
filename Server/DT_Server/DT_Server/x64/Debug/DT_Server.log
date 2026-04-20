@@ -1,0 +1,439 @@
+﻿  DT_Server.cpp
+C:\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(302,23): warning C4251: "trantor::EventLoop::looping_": "std::atomic<bool>" должен иметь dll-интерфейс для использования клиентами "trantor::EventLoop"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\atomic(2154,8):
+       см. объявление "std::atomic<bool>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(303,21): warning C4251: "trantor::EventLoop::threadId_": "std::thread::id" должен иметь dll-интерфейс для использования клиентами "trantor::EventLoop"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\thread(227,15):
+       см. объявление "std::thread::id"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(304,23): warning C4251: "trantor::EventLoop::quit_": "std::atomic<bool>" должен иметь dll-интерфейс для использования клиентами "trantor::EventLoop"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\atomic(2154,8):
+       см. объявление "std::atomic<bool>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(305,29): warning C4251: "trantor::EventLoop::poller_": "std::unique_ptr<trantor::Poller,std::default_delete<trantor::Poller>>" должен иметь dll-интерфейс для использования клиентами "trantor::EventLoop"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+       см. объявление "std::unique_ptr<trantor::Poller,std::default_delete<trantor::Poller>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(307,17): warning C4251: "trantor::EventLoop::activeChannels_": "std::vector<trantor::Channel *,std::allocator<trantor::Channel *>>" должен иметь dll-интерфейс для использования клиентами "trantor::EventLoop"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<trantor::Channel *,std::allocator<trantor::Channel *>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(311,21): warning C4251: "trantor::EventLoop::funcs_": "trantor::MpscQueue<trantor::Func>" должен иметь dll-интерфейс для использования клиентами "trantor::EventLoop"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\vcpkg\installed\x64-windows\include\trantor\utils\LockFreeQueue.h(30,7):
+       см. объявление "trantor::MpscQueue<trantor::Func>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(312,33): warning C4251: "trantor::EventLoop::timerQueue_": "std::unique_ptr<trantor::TimerQueue,std::default_delete<trantor::TimerQueue>>" должен иметь dll-интерфейс для использования клиентами "trantor::EventLoop"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+       см. объявление "std::unique_ptr<trantor::TimerQueue,std::default_delete<trantor::TimerQueue>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(313,21): warning C4251: "trantor::EventLoop::funcsOnQuit_": "trantor::MpscQueue<trantor::Func>" должен иметь dll-интерфейс для использования клиентами "trantor::EventLoop"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\vcpkg\installed\x64-windows\include\trantor\utils\LockFreeQueue.h(30,7):
+       см. объявление "trantor::MpscQueue<trantor::Func>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\LogStream.h(248,17): warning C4251: "trantor::LogStream::exBuffer_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "trantor::LogStream"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\Logger.h(335,16): warning C4251: "trantor::Logger::sourceFile_": "trantor::Logger::SourceFile" должен иметь dll-интерфейс для использования клиентами "trantor::Logger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\vcpkg\installed\x64-windows\include\trantor\utils\Logger.h(57,11):
+       см. объявление "trantor::Logger::SourceFile"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\MsgBuffer.h(353,23): warning C4251: "trantor::MsgBuffer::buffer_": "std::vector<char,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "trantor::MsgBuffer"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<char,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TLSPolicy.h(209,54): warning C4251: "trantor::TLSPolicy::sslConfCmds_": "std::vector<std::pair<std::string,std::string>,std::allocator<std::pair<std::string,std::string>>>" должен иметь dll-интерфейс для использования клиентами "trantor::TLSPolicy"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<std::pair<std::string,std::string>,std::allocator<std::pair<std::string,std::string>>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TLSPolicy.h(210,17): warning C4251: "trantor::TLSPolicy::hostname_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "trantor::TLSPolicy"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TLSPolicy.h(211,17): warning C4251: "trantor::TLSPolicy::certPath_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "trantor::TLSPolicy"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TLSPolicy.h(212,17): warning C4251: "trantor::TLSPolicy::keyPath_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "trantor::TLSPolicy"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TLSPolicy.h(213,17): warning C4251: "trantor::TLSPolicy::caPath_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "trantor::TLSPolicy"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TLSPolicy.h(214,30): warning C4251: "trantor::TLSPolicy::alpnProtocols_": "std::vector<std::string,std::allocator<std::string>>" должен иметь dll-интерфейс для использования клиентами "trantor::TLSPolicy"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<std::string,std::allocator<std::string>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TcpConnection.h(372,25): warning C4251: "trantor::TcpConnection::recvMsgCallback_": "std::function<void (const trantor::TcpConnectionPtr &,trantor::MsgBuffer *)>" должен иметь dll-интерфейс для использования клиентами "trantor::TcpConnection"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<void (const trantor::TcpConnectionPtr &,trantor::MsgBuffer *)>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TcpConnection.h(373,24): warning C4251: "trantor::TcpConnection::connectionCallback_": "std::function<void (const trantor::TcpConnectionPtr &)>" должен иметь dll-интерфейс для использования клиентами "trantor::TcpConnection"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<void (const trantor::TcpConnectionPtr &)>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TcpConnection.h(374,19): warning C4251: "trantor::TcpConnection::closeCallback_": "std::function<void (const trantor::TcpConnectionPtr &)>" должен иметь dll-интерфейс для использования клиентами "trantor::TcpConnection"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<void (const trantor::TcpConnectionPtr &)>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TcpConnection.h(375,27): warning C4251: "trantor::TcpConnection::writeCompleteCallback_": "std::function<void (const trantor::TcpConnectionPtr &)>" должен иметь dll-интерфейс для использования клиентами "trantor::TcpConnection"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<void (const trantor::TcpConnectionPtr &)>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TcpConnection.h(376,27): warning C4251: "trantor::TcpConnection::highWaterMarkCallback_": "std::function<void (const trantor::TcpConnectionPtr &,size_t)>" должен иметь dll-интерфейс для использования клиентами "trantor::TcpConnection"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<void (const trantor::TcpConnectionPtr &,size_t)>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TcpConnection.h(377,22): warning C4251: "trantor::TcpConnection::sslErrorCallback_": "std::function<void (trantor::SSLError)>" должен иметь dll-интерфейс для использования клиентами "trantor::TcpConnection"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<void (trantor::SSLError)>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\net\TcpConnection.h(381,27): warning C4251: "trantor::TcpConnection::contextPtr_": "std::shared_ptr<void>" должен иметь dll-интерфейс для использования клиентами "trantor::TcpConnection"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+       см. объявление "std::shared_ptr<void>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\Cookie.h(421,17): warning C4251: "drogon::Cookie::domain_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::Cookie"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\Cookie.h(422,17): warning C4251: "drogon::Cookie::path_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::Cookie"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\Cookie.h(423,17): warning C4251: "drogon::Cookie::key_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::Cookie"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\Cookie.h(424,17): warning C4251: "drogon::Cookie::value_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::Cookie"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\Cookie.h(425,24): warning C4251: "drogon::Cookie::maxAge_": "std::optional<int>" должен иметь dll-интерфейс для использования клиентами "drogon::Cookie"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\optional(213,7):
+       см. объявление "std::optional<int>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\HttpViewData.h(172,25): warning C4251: "drogon::HttpViewData::viewData_": "std::unordered_map<std::string,std::any,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::any>>>" должен иметь dll-интерфейс для использования клиентами "drogon::HttpViewData"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\unordered_map(61,7):
+       см. объявление "std::unordered_map<std::string,std::any,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::any>>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\HttpResponse.h(111,29): warning C4251: "drogon::ResponseStream::asyncStream_": "std::unique_ptr<trantor::AsyncStream,std::default_delete<trantor::AsyncStream>>" должен иметь dll-интерфейс для использования клиентами "drogon::ResponseStream"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+       см. объявление "std::unique_ptr<trantor::AsyncStream,std::default_delete<trantor::AsyncStream>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\MultiPart.h(117,35): warning C4251: "drogon::HttpFile::implPtr_": "std::shared_ptr<drogon::HttpFileImpl>" должен иметь dll-интерфейс для использования клиентами "drogon::HttpFile"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+       см. объявление "std::shared_ptr<drogon::HttpFileImpl>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\MultiPart.h(178,27): warning C4251: "drogon::MultiPartParser::files_": "std::vector<drogon::HttpFile,std::allocator<drogon::HttpFile>>" должен иметь dll-интерфейс для использования клиентами "drogon::MultiPartParser"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<drogon::HttpFile,std::allocator<drogon::HttpFile>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\MultiPart.h(179,32): warning C4251: "drogon::MultiPartParser::parameters_": "std::unordered_map<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::string,drogon::utils::internal::SafeStringHash,std::equal_to<std::string>,std::allocator<std::pair<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::string>>>" должен иметь dll-интерфейс для использования клиентами "drogon::MultiPartParser"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\unordered_map(61,7):
+       см. объявление "std::unordered_map<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::string,drogon::utils::internal::SafeStringHash,std::equal_to<std::string>,std::allocator<std::pair<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::string>>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\Plugin.h(101,17): warning C4251: "drogon::PluginBase::config_": "Json::Value" должен иметь dll-интерфейс для использования клиентами "drogon::PluginBase"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\vcpkg\installed\x64-windows\include\json\value.h(194,16):
+       см. объявление "Json::Value"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\Plugin.h(102,31): warning C4251: "drogon::PluginBase::dependencies_": "std::vector<drogon::PluginBase *,std::allocator<drogon::PluginBase *>>" должен иметь dll-интерфейс для использования клиентами "drogon::PluginBase"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<drogon::PluginBase *,std::allocator<drogon::PluginBase *>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\Plugin.h(103,39): warning C4251: "drogon::PluginBase::initializedCallback_": "std::function<void (drogon::PluginBase *)>" должен иметь dll-интерфейс для использования клиентами "drogon::PluginBase"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<void (drogon::PluginBase *)>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\Result.h(147,19): warning C4251: "drogon::orm::Result::resultPtr_": "std::shared_ptr<drogon::orm::ResultImpl>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::Result"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+       см. объявление "std::shared_ptr<drogon::orm::ResultImpl>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(675,34): warning C4251: "drogon::orm::internal::SqlBinder::sqlPtr_": "std::shared_ptr<std::string>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::internal::SqlBinder"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+       см. объявление "std::shared_ptr<std::string>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(680,31): warning C4251: "drogon::orm::internal::SqlBinder::parameters_": "std::vector<const char *,std::allocator<const char *>>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::internal::SqlBinder"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<const char *,std::allocator<const char *>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(681,22): warning C4251: "drogon::orm::internal::SqlBinder::lengths_": "std::vector<int,std::allocator<int>>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::internal::SqlBinder"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<int,std::allocator<int>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(682,22): warning C4251: "drogon::orm::internal::SqlBinder::formats_": "std::vector<int,std::allocator<int>>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::internal::SqlBinder"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<int,std::allocator<int>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(683,40): warning C4251: "drogon::orm::internal::SqlBinder::objs_": "std::vector<std::shared_ptr<void>,std::allocator<std::shared_ptr<void>>>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::internal::SqlBinder"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<std::shared_ptr<void>,std::allocator<std::shared_ptr<void>>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(685,41): warning C4251: "drogon::orm::internal::SqlBinder::callbackHolder_": "std::shared_ptr<drogon::orm::internal::CallbackHolderBase>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::internal::SqlBinder"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+       см. объявление "std::shared_ptr<drogon::orm::internal::CallbackHolderBase>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(686,31): warning C4251: "drogon::orm::internal::SqlBinder::exceptionCallback_": "std::function<void (const drogon::orm::DrogonDbException &)>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::internal::SqlBinder"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<void (const drogon::orm::DrogonDbException &)>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(687,23): warning C4251: "drogon::orm::internal::SqlBinder::exceptionPtrCallback_": "std::function<void (const std::exception_ptr &)>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::internal::SqlBinder"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<void (const std::exception_ptr &)>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\orm\DbClient.h(380,17): warning C4251: "drogon::orm::DbClient::connectionInfo_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::orm::DbClient"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251: "std::enable_shared_from_this<drogon::plugin::SecureSSLRedirector>::_Wptr": "std::weak_ptr<_Ty>" должен иметь dll-интерфейс для использования клиентами "std::enable_shared_from_this<drogon::plugin::SecureSSLRedirector>"
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251:         with
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251:         [
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251:             _Ty=drogon::plugin::SecureSSLRedirector
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251:         ]
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3129,7):
+       см. объявление "std::weak_ptr<_Ty>"
+          with
+          [
+              _Ty=drogon::plugin::SecureSSLRedirector
+          ]
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(74,16): warning C4251: "drogon::plugin::SecureSSLRedirector::exemptRegex_": "std::basic_regex<char,std::regex_traits<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::SecureSSLRedirector"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\regex(1814,7):
+       см. объявление "std::basic_regex<char,std::regex_traits<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(76,17): warning C4251: "drogon::plugin::SecureSSLRedirector::secureHost_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::SecureSSLRedirector"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(120,29): warning C4251: "trantor::AsyncFileLogger::cond_": "std::condition_variable" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\mutex(532,19):
+       см. объявление "std::condition_variable"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(121,15): warning C4251: "trantor::AsyncFileLogger::logBufferPtr_": "std::shared_ptr<std::string>" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+       см. объявление "std::shared_ptr<std::string>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(122,15): warning C4251: "trantor::AsyncFileLogger::nextBufferPtr_": "std::shared_ptr<std::string>" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+       см. объявление "std::shared_ptr<std::string>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(123,20): warning C4251: "trantor::AsyncFileLogger::writeBuffers_": "std::queue<trantor::StringPtr,std::deque<trantor::StringPtr,std::allocator<trantor::StringPtr>>>" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\queue(27,7):
+       см. объявление "std::queue<trantor::StringPtr,std::deque<trantor::StringPtr,std::allocator<trantor::StringPtr>>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(124,20): warning C4251: "trantor::AsyncFileLogger::tmpBuffers_": "std::queue<trantor::StringPtr,std::deque<trantor::StringPtr,std::allocator<trantor::StringPtr>>>" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\queue(27,7):
+       см. объявление "std::queue<trantor::StringPtr,std::deque<trantor::StringPtr,std::allocator<trantor::StringPtr>>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(126,34): warning C4251: "trantor::AsyncFileLogger::threadPtr_": "std::unique_ptr<std::thread,std::default_delete<std::thread>>" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+       см. объявление "std::unique_ptr<std::thread,std::default_delete<std::thread>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(129,17): warning C4251: "trantor::AsyncFileLogger::filePath_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(130,17): warning C4251: "trantor::AsyncFileLogger::fileBaseName_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(131,17): warning C4251: "trantor::AsyncFileLogger::fileExtName_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(174,33): warning C4251: "trantor::AsyncFileLogger::loggerFilePtr_": "std::unique_ptr<trantor::AsyncFileLogger::LoggerFile,std::default_delete<trantor::AsyncFileLogger::LoggerFile>>" должен иметь dll-интерфейс для использования клиентами "trantor::AsyncFileLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+       см. объявление "std::unique_ptr<trantor::AsyncFileLogger::LoggerFile,std::default_delete<trantor::AsyncFileLogger::LoggerFile>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\AccessLogger.h(123,17): warning C4251: "drogon::plugin::AccessLogger::timeFormat_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::AccessLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\AccessLogger.h(125,16): warning C4251: "drogon::plugin::AccessLogger::exemptRegex_": "std::basic_regex<char,std::regex_traits<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::AccessLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\regex(1814,7):
+       см. объявление "std::basic_regex<char,std::regex_traits<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\AccessLogger.h(131,30): warning C4251: "drogon::plugin::AccessLogger::logFunctions_": "std::vector<drogon::plugin::AccessLogger::LogFunction,std::allocator<drogon::plugin::AccessLogger::LogFunction>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::AccessLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<drogon::plugin::AccessLogger::LogFunction,std::allocator<drogon::plugin::AccessLogger::LogFunction>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\AccessLogger.h(137,40): warning C4251: "drogon::plugin::AccessLogger::logFunctionMap_": "std::map<std::string,drogon::plugin::AccessLogger::LogFunction,std::less<std::string>,std::allocator<std::pair<const std::string,drogon::plugin::AccessLogger::LogFunction>>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::AccessLogger"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\map(72,7):
+       см. объявление "std::map<std::string,drogon::plugin::AccessLogger::LogFunction,std::less<std::string>,std::allocator<std::pair<const std::string,drogon::plugin::AccessLogger::LogFunction>>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\RealIpResolver.h(73,11): warning C4251: "drogon::plugin::RealIpResolver::trustCIDRs_": "std::vector<drogon::plugin::RealIpResolver::CIDR,std::allocator<drogon::plugin::RealIpResolver::CIDR>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::RealIpResolver"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<drogon::plugin::RealIpResolver::CIDR,std::allocator<drogon::plugin::RealIpResolver::CIDR>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\RealIpResolver.h(74,17): warning C4251: "drogon::plugin::RealIpResolver::fromHeader_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::RealIpResolver"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\RealIpResolver.h(75,17): warning C4251: "drogon::plugin::RealIpResolver::attributeKey_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::RealIpResolver"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\RateLimiter.h(72,20): warning C4251: "drogon::SafeRateLimiter::limiter_": "std::shared_ptr<drogon::RateLimiter>" должен иметь dll-интерфейс для использования клиентами "drogon::SafeRateLimiter"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+       см. объявление "std::shared_ptr<drogon::RateLimiter>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(131,32): warning C4251: "drogon::plugin::Hodor::limitStrategies_": "std::vector<drogon::plugin::Hodor::LimitStrategy,std::allocator<drogon::plugin::Hodor::LimitStrategy>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::Hodor"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<drogon::plugin::Hodor::LimitStrategy,std::allocator<drogon::plugin::Hodor::LimitStrategy>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(133,35): warning C4251: "drogon::plugin::Hodor::timeUnit_": "std::chrono::duration<double,std::ratio<1,1>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::Hodor"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_chrono.hpp(91,11):
+       см. объявление "std::chrono::duration<double,std::ratio<1,1>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(138,9): warning C4251: "drogon::plugin::Hodor::userIdGetter_": "std::function<std::optional<std::string> (const drogon::HttpRequestPtr &)>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::Hodor"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<std::optional<std::string> (const drogon::HttpRequestPtr &)>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(140,9): warning C4251: "drogon::plugin::Hodor::rejectResponseFactory_": "std::function<drogon::HttpResponsePtr (const drogon::HttpRequestPtr &)>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::Hodor"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1074,7):
+       см. объявление "std::function<drogon::HttpResponsePtr (const drogon::HttpRequestPtr &)>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(142,27): warning C4251: "drogon::plugin::Hodor::trustCIDRs_": "std::vector<drogon::plugin::RealIpResolver::CIDR,std::allocator<drogon::plugin::RealIpResolver::CIDR>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::Hodor"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<drogon::plugin::RealIpResolver::CIDR,std::allocator<drogon::plugin::RealIpResolver::CIDR>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(151,21): warning C4251: "drogon::plugin::Hodor::rejectResponse_": "std::shared_ptr<drogon::HttpResponse>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::Hodor"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+       см. объявление "std::shared_ptr<drogon::HttpResponse>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251: "std::enable_shared_from_this<drogon::plugin::GlobalFilters>::_Wptr": "std::weak_ptr<_Ty>" должен иметь dll-интерфейс для использования клиентами "std::enable_shared_from_this<drogon::plugin::GlobalFilters>"
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251:         with
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251:         [
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251:             _Ty=drogon::plugin::GlobalFilters
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251:         ]
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3129,7):
+       см. объявление "std::weak_ptr<_Ty>"
+          with
+          [
+              _Ty=drogon::plugin::GlobalFilters
+          ]
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(50,58): warning C4251: "drogon::plugin::GlobalFilters::filters_": "std::vector<std::shared_ptr<drogon::HttpFilterBase>,std::allocator<std::shared_ptr<drogon::HttpFilterBase>>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::GlobalFilters"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<std::shared_ptr<drogon::HttpFilterBase>,std::allocator<std::shared_ptr<drogon::HttpFilterBase>>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(51,16): warning C4251: "drogon::plugin::GlobalFilters::exemptPegex_": "std::basic_regex<char,std::regex_traits<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::GlobalFilters"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\regex(1814,7):
+       см. объявление "std::basic_regex<char,std::regex_traits<char>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251: "std::enable_shared_from_this<drogon::plugin::PromExporter>::_Wptr": "std::weak_ptr<_Ty>" должен иметь dll-интерфейс для использования клиентами "std::enable_shared_from_this<drogon::plugin::PromExporter>"
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251:         with
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251:         [
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251:             _Ty=drogon::plugin::PromExporter
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251:         ]
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3129,7):
+       см. объявление "std::weak_ptr<_Ty>"
+          with
+          [
+              _Ty=drogon::plugin::PromExporter
+          ]
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(57,34): warning C4275: class "drogon::monitoring::Registry", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "drogon::plugin::PromExporter"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\vcpkg\installed\x64-windows\include\drogon\utils\monitoring\Registry.h(27,7):
+       см. объявление "drogon::monitoring::Registry"
+      C:\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(54,21):
+       см. объявление "drogon::plugin::PromExporter"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(93,9): warning C4251: "drogon::plugin::PromExporter::collectors_": "std::unordered_map<std::string,std::shared_ptr<drogon::monitoring::CollectorBase>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::shared_ptr<drogon::monitoring::CollectorBase>>>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::PromExporter"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\unordered_map(61,7):
+       см. объявление "std::unordered_map<std::string,std::shared_ptr<drogon::monitoring::CollectorBase>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::shared_ptr<drogon::monitoring::CollectorBase>>>>"
+  
+C:\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(94,17): warning C4251: "drogon::plugin::PromExporter::path_": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами "drogon::plugin::PromExporter"
+  (компиляция исходного файла "DT_Server.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+       см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+C:\Users\Александр\source\repos\DT_Server\DT_Server.cpp(36,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Александр\source\repos\DT_Server\DT_Server.cpp(76,66): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Александр\source\repos\DT_Server\DT_Server.cpp(83,49): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Александр\source\repos\DT_Server\DT_Server.cpp(95,50): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  DT_Server.vcxproj -> C:\Users\Александр\source\repos\DT_Server\x64\Debug\DT_Server.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
