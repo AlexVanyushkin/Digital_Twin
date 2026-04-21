@@ -1,0 +1,11 @@
+Commands in psql:
+create database amdin_users;
+\c admin_users
+create table users (Id serial primary key, Login character varying(30), Password character varying(30));
+insert into users (Login, Password) values ('Your_Login', 'Your_Password');
+
+Note:
+Hash your password in prod!
+
+To see your DB containment:
+select * from users;
